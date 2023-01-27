@@ -1,0 +1,32 @@
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 495px;
+}
+
+.linktag {
+    cursor: pointer;
+
+}
+
+.main {
+    .cardContainer {
+        max-width: 93%;
+    }
+
+}
+.readmore {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #233896 !important;
+
+}
+.readmore:hover {
+    color: #36abec !important;
+    padding-left: 16px;
+    transition: all 0.6 ease-in;
+}

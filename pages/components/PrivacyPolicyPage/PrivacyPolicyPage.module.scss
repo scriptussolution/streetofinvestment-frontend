@@ -1,0 +1,23 @@
+.container {
+    h1 {
+      font-size: 50px;
+    }
+    .privacyPolicyInvestment {
+      .privacyPolicyDetails {
+        margin: 0px 150px;
+        padding: 20px;
+        line-height: 30px;
+        @media (max-width: 1024px) {
+          margin: 0px 50px;
+        }
+        @media (max-width: 768px) {
+          margin: 0px;
+        }
+        .privacyPolicyContent {
+          .desclaimerGenerator{
+           line-break: anywhere;   
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,6 @@
+Sitemap: https://streetofinvestment.com/sitemap.xml
+
+User-agent: *
+Disallow: /api/*
+Disallow: /components/*
+Allow: /
